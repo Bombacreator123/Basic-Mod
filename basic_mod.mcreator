@@ -86,7 +86,7 @@
       "name": "CopperwireRightClickedOnBlock",
       "type": "procedure",
       "sortid": 11,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "copperwire_right_clicked_on_block",
@@ -115,7 +115,7 @@
       "name": "Wire",
       "type": "block",
       "sortid": 10,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "wire"
@@ -124,7 +124,7 @@
       "name": "CopperOre",
       "type": "block",
       "sortid": 10,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "copper_ore"
