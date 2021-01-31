@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "basic_mod:blocks/wiretopbottom",
+    "bottom": "basic_mod:blocks/wiretopbottom",
+    "top": "basic_mod:blocks/wiretopbottom",
+    "side": "basic_mod:blocks/wirefront"
+  }
+}

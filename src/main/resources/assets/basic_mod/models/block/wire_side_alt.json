@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_glass_pane_side_alt",
+  "textures": {
+    "particle": "basic_mod:blocks/wiretopbottom",
+    "edge": "basic_mod:blocks/wiretopbottom",
+    "pane": "basic_mod:blocks/wiretopbottom"
+  }
+}
