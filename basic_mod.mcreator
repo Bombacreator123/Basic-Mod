@@ -83,6 +83,24 @@
       "registry_name": "copperwire_rec"
     },
     {
+      "name": "Wire",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wire"
+    },
+    {
+      "name": "CopperOre",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ore"
+    },
+    {
       "name": "CopperwireRightClickedOnBlock",
       "type": "procedure",
       "sortid": 11,
@@ -110,24 +128,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "Wire",
-      "type": "block",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "wire"
-    },
-    {
-      "name": "CopperOre",
-      "type": "block",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "copper_ore"
     }
   ],
   "variable_elements": [],
