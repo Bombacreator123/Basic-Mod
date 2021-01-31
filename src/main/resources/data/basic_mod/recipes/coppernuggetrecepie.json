@@ -1,0 +1,13 @@
+{
+  "group": "basic_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "basic_mod:copperingot"
+    }
+  ],
+  "result": {
+    "item": "basic_mod:copper_nugget",
+    "count": 9
+  }
+}
