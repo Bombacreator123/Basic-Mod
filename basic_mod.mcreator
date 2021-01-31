@@ -86,7 +86,7 @@
       "name": "CopperwireRightClickedOnBlock",
       "type": "procedure",
       "sortid": 11,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "copperwire_right_clicked_on_block",
@@ -115,7 +115,7 @@
       "name": "Wire",
       "type": "block",
       "sortid": 10,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "wire"
@@ -137,6 +137,7 @@
       "item.basic_mod.copper_nugget": "Copper Nugget",
       "item.basic_mod.copperingot": "Copper Ingot",
       "item.basic_mod.copperwire": "Copper Wire",
+      "block.basic_mod.wire": "Wire",
       "item.basic_mod.steel_ingot": "Steel Ingot",
       "block.basic_mod.copper_ore": "Copper Ore"
     }
