@@ -1,0 +1,42 @@
+{
+  "group": "basic_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_wool"
+    },
+    "1": {
+      "item": "basic_mod:copperingot"
+    },
+    "2": {
+      "item": "minecraft:black_wool"
+    },
+    "3": {
+      "item": "minecraft:black_wool"
+    },
+    "4": {
+      "item": "basic_mod:copperingot"
+    },
+    "5": {
+      "item": "minecraft:black_wool"
+    },
+    "6": {
+      "item": "minecraft:black_wool"
+    },
+    "7": {
+      "item": "basic_mod:copperingot"
+    },
+    "8": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "basic_mod:copperwire",
+    "count": 16
+  }
+}

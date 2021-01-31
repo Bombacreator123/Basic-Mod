@@ -63,6 +63,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copperingotrecepie"
+    },
+    {
+      "name": "Copperwire",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperwire"
+    },
+    {
+      "name": "CopperwireRec",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperwire_rec"
     }
   ],
   "variable_elements": [],
@@ -71,6 +89,7 @@
     "en_us": {
       "item.basic_mod.copper_nugget": "Copper Nugget",
       "item.basic_mod.copperingot": "Copper Ingot",
+      "item.basic_mod.copperwire": "Copper Wire",
       "item.basic_mod.steel_ingot": "Steel Ingot"
     }
   },
