@@ -9,13 +9,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copper_ingot"
+    },
+    {
+      "name": "CooperOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooper_ore"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.basic_mod.copper_ingot": "Copper Ingot"
+      "item.basic_mod.copper_ingot": "Copper Ingot",
+      "block.basic_mod.cooper_ore": "Cooper Ore"
     }
   },
   "workspaceSettings": {
