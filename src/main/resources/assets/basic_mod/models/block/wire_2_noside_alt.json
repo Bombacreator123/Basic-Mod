@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_noside_alt",
+  "textures": {
+    "particle": "basic_mod:blocks/wire",
+    "pane": "basic_mod:blocks/wire"
+  }
+}

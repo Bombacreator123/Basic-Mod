@@ -11,31 +11,86 @@
       "registry_name": "steel_ingot"
     },
     {
-      "name": "Wire",
+      "name": "Copperingot",
       "type": "item",
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "wire"
+      "registry_name": "copperingot"
     },
     {
-      "name": "CopperOre",
-      "type": "block",
-      "sortid": 1,
+      "name": "CopperNugget",
+      "type": "item",
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "copper_ore"
+      "registry_name": "copper_nugget"
+    },
+    {
+      "name": "Steelingotrecepie",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelingotrecepie"
+    },
+    {
+      "name": "Steelingotrecepiecharcoal",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelingotrecepiecharcoal"
+    },
+    {
+      "name": "Coppernuggetrecepie",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coppernuggetrecepie"
+    },
+    {
+      "name": "Copperingotrecepie",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperingotrecepie"
+    },
+    {
+      "name": "Copperwire",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperwire"
+    },
+    {
+      "name": "CopperwireRec",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperwire_rec"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.basic_mod.steel_ingot": "Steel Ingot",
-      "item.basic_mod.wire": "Wire",
-      "block.basic_mod.copper_ore": "Copper Ore"
+      "item.basic_mod.copper_nugget": "Copper Nugget",
+      "item.basic_mod.copperingot": "Copper Ingot",
+      "item.basic_mod.copperwire": "Copper Wire",
+      "item.basic_mod.steel_ingot": "Steel Ingot"
     }
   },
   "workspaceSettings": {

@@ -12,11 +12,11 @@ import net.minecraft.block.BlockState;
 import net.mcreator.basicmod.BasicModModElements;
 
 @BasicModModElements.ModElement.Tag
-public class WireItem extends BasicModModElements.ModElement {
-	@ObjectHolder("basic_mod:wire")
+public class CopperwireItem extends BasicModModElements.ModElement {
+	@ObjectHolder("basic_mod:copperwire")
 	public static final Item block = null;
-	public WireItem(BasicModModElements instance) {
-		super(instance, 2);
+	public CopperwireItem(BasicModModElements instance) {
+		super(instance, 8);
 	}
 
 	@Override
@@ -26,7 +26,7 @@ public class WireItem extends BasicModModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("wire");
+			setRegistryName("copperwire");
 		}
 
 		@Override

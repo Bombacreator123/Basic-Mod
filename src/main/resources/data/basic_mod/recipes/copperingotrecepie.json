@@ -1,0 +1,42 @@
+{
+  "group": "basic_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "basic_mod:copper_nugget"
+    },
+    "1": {
+      "item": "basic_mod:copper_nugget"
+    },
+    "2": {
+      "item": "basic_mod:copper_nugget"
+    },
+    "3": {
+      "item": "basic_mod:copper_nugget"
+    },
+    "4": {
+      "item": "basic_mod:copper_nugget"
+    },
+    "5": {
+      "item": "basic_mod:copper_nugget"
+    },
+    "6": {
+      "item": "basic_mod:copper_nugget"
+    },
+    "7": {
+      "item": "basic_mod:copper_nugget"
+    },
+    "8": {
+      "item": "basic_mod:copper_nugget"
+    }
+  },
+  "result": {
+    "item": "basic_mod:copperingot",
+    "count": 1
+  }
+}

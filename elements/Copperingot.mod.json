@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "wire",
+    "texture": "copperingot1",
     "customModelName": "Normal",
-    "name": "Wire",
+    "name": "Copper Ingot",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"

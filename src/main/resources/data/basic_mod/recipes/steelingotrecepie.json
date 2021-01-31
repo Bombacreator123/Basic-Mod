@@ -1,0 +1,16 @@
+{
+  "group": "basic_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "result": {
+    "item": "basic_mod:steel_ingot",
+    "count": 1
+  }
+}
