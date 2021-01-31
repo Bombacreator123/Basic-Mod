@@ -1,0 +1,12 @@
+{
+  "group": "basic_mod",
+  "type": "minecraft:smelting",
+  "experience": 8,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "basic_mod:cooper_ore"
+  },
+  "result": {
+    "item": "basic_mod:copper_ingot"
+  }
+}

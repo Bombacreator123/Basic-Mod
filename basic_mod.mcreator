@@ -18,6 +18,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cooper_ore"
+    },
+    {
+      "name": "Test",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test"
+    },
+    {
+      "name": "Po",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "po"
     }
   ],
   "variable_elements": [],
