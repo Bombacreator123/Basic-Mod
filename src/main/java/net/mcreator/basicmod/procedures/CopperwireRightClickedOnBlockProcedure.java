@@ -1,22 +1,11 @@
 package net.mcreator.basicmod.procedures;
 
-import net.minecraftforge.items.CapabilityItemHandler;
-
-import net.minecraft.world.IWorld;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.tileentity.TileEntity;
-
-import net.mcreator.basicmod.block.WireBlock;
-import net.mcreator.basicmod.BasicModModElements;
-import net.mcreator.basicmod.BasicModMod;
-
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.Map;
-
 @BasicModModElements.ModElement.Tag
 public class CopperwireRightClickedOnBlockProcedure extends BasicModModElements.ModElement {
+
 	public CopperwireRightClickedOnBlockProcedure(BasicModModElements instance) {
 		super(instance, 11);
+
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -40,10 +29,12 @@ public class CopperwireRightClickedOnBlockProcedure extends BasicModModElements.
 				BasicModMod.LOGGER.warn("Failed to load dependency world for procedure CopperwireRightClickedOnBlock!");
 			return;
 		}
+
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
+
 		world.setBlockState(new BlockPos((int) x, (int) (new Object() {
 			public int getAmount(IWorld world, BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);
@@ -55,6 +46,8 @@ public class CopperwireRightClickedOnBlockProcedure extends BasicModModElements.
 				}
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos((int) x, (int) (y - 1), (int) z), (int) ((-1)))), (int) z), WireBlock.block.getDefaultState(), 3);
+		}.getAmount(world, new BlockPos((int) x, (int) (y - 1), (int) z), (int) ((-1)))), (int) z), WireItem.block.getDefaultState(), 3);
+
 	}
+
 }
