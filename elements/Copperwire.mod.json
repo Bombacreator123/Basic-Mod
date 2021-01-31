@@ -31,6 +31,9 @@
     "inventoryStackSize": 64,
     "onRightClickedOnBlock": {
       "name": "CopperwireRightClickedOnBlock"
+    },
+    "onCrafted": {
+      "name": "CopperwireRightClickedOnBlock"
     }
   }
 }

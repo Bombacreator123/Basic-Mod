@@ -75,5 +75,21 @@ public class CopperwireItem extends BasicModModElements.ModElement {
 			}
 			return retval;
 		}
+
+		@Override
+		public void onCreated(ItemStack itemstack, World world, PlayerEntity entity) {
+			super.onCreated(itemstack, world, entity);
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				CopperwireRightClickedOnBlockProcedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 }
