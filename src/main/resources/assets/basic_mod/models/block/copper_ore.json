@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "basic_mod:blocks/copper_ore",
+    "up": "basic_mod:blocks/copper_ore",
+    "north": "basic_mod:blocks/copper_ore",
+    "east": "basic_mod:blocks/copper_ore2",
+    "south": "basic_mod:blocks/copper_ore",
+    "west": "basic_mod:blocks/copper_ore",
+    "particle": "basic_mod:blocks/copper_ore"
+  }
+}
