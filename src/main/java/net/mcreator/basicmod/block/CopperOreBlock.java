@@ -24,7 +24,7 @@ public class CopperOreBlock extends BasicModModElements.ModElement {
 	@ObjectHolder("basic_mod:copper_ore")
 	public static final Block block = null;
 	public CopperOreBlock(BasicModModElements instance) {
-		super(instance, 1);
+		super(instance, 10);
 	}
 
 	@Override
@@ -35,7 +35,7 @@ public class CopperOreBlock extends BasicModModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 3f).setLightLevel(s -> 0).harvestLevel(2)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 10f).setLightLevel(s -> 0).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("copper_ore");
 		}
