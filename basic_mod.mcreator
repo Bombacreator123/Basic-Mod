@@ -18,6 +18,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "wire"
+    },
+    {
+      "name": "CopperOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ore"
     }
   ],
   "variable_elements": [],
@@ -25,7 +34,8 @@
   "language_map": {
     "en_us": {
       "item.basic_mod.steel_ingot": "Steel Ingot",
-      "item.basic_mod.wire": "Wire"
+      "item.basic_mod.wire": "Wire",
+      "block.basic_mod.copper_ore": "Copper Ore"
     }
   },
   "workspaceSettings": {
