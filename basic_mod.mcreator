@@ -9,13 +9,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_ingot"
+    },
+    {
+      "name": "Wire",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wire"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.basic_mod.steel_ingot": "Steel Ingot"
+      "item.basic_mod.steel_ingot": "Steel Ingot",
+      "item.basic_mod.wire": "Wire"
     }
   },
   "workspaceSettings": {
