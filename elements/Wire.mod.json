@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "wire",
     "customModelName": "Normal",
-    "name": "Wire",
+    "name": "Eletric Wire",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
@@ -28,6 +28,9 @@
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64
+    "inventoryStackSize": 64,
+    "onRightClickedOnBlock": {
+      "name": "WireRightClickedOnBlock"
+    }
   }
 }

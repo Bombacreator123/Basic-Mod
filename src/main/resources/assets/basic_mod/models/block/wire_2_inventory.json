@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "basic_mod:blocks/wire",
+    "particle": "basic_mod:blocks/wire"
+  }
+}

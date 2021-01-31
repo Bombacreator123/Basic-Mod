@@ -18,14 +18,70 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "wire"
+    },
+    {
+      "name": "Wire2EntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wire_2_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wire2",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wire_2"
+    },
+    {
+      "name": "WireRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wire_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.basic_mod.wire_2": "Wire 2",
       "item.basic_mod.steel_ingot": "Steel Ingot",
-      "item.basic_mod.wire": "Wire"
+      "item.basic_mod.wire": "Eletric Wire"
     }
   },
   "workspaceSettings": {

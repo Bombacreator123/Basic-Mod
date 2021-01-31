@@ -1,4 +1,5 @@
 {
+  "block.basic_mod.wire_2": "Wire 2",
   "item.basic_mod.steel_ingot": "Steel Ingot",
-  "item.basic_mod.wire": "Wire"
+  "item.basic_mod.wire": "Eletric Wire"
 }
